@@ -8,11 +8,12 @@ vec3::vec3()
 	mod = sqrt(x*x) + sqrt(y*y) + sqrt(z*z);
 }
 
-vec3::vec3(float x, float y, float z)
+vec3::vec3(float x, float y, float z, float mod)
 {
 	this->x = x;
 	this->y = y;
 	this->z = z;
+	this->mod = mod;
 }
 
 vec3& vec3::add(const vec3& vec)

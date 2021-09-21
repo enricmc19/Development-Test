@@ -10,7 +10,7 @@ public:
 	float mod;
 
 	vec3();
-	vec3(float x, float y, float z);
+	vec3(float x, float y, float z, float mod);
 
 	vec3& add(const vec3& vec);
 	vec3& subtract(const vec3& vec);
